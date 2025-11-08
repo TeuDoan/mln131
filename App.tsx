@@ -1,7 +1,9 @@
+// FIX: Create a valid App component to assemble the application layout.
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import IntroductionSection from './components/IntroductionSection';
+import ContentSection from './components/ContentSection';
 import AnalysisSection from './components/AnalysisSection';
 import TraditionSection from './components/TraditionSection';
 import ModernSection from './components/ModernSection';
@@ -10,6 +12,7 @@ import GallerySection from './components/GallerySection';
 import ConclusionSection from './components/ConclusionSection';
 import Footer from './components/Footer';
 import AppendixPage from './components/AppendixPage';
+import Chatbot from './components/Chatbot';
 
 const App: React.FC = () => {
   const [showAppendix, setShowAppendix] = useState(false);
@@ -19,33 +22,35 @@ const App: React.FC = () => {
   }
 
   return (
-    <div className="bg-slate-900 text-slate-200 min-h-screen">
+    <div className="bg-slate-900 text-slate-200 antialiased">
       <Header />
       <main>
         <Hero />
-        <section id="introduction">
-            <IntroductionSection />
-        </section>
-        <section id="analysis">
-            <AnalysisSection />
-        </section>
-        <section id="tradition">
-            <TraditionSection />
-        </section>
-        <section id="modern">
-            <ModernSection />
-        </section>
-        <section id="guidance">
-            <GuidanceSection />
-        </section>
-        <section id="gallery">
-            <GallerySection />
-        </section>
-        <section id="conclusion">
-            <ConclusionSection />
-        </section>
+        <div id="introduction">
+          <IntroductionSection />
+        </div>
+        <ContentSection />
+        <div id="analysis">
+          <AnalysisSection />
+        </div>
+        <div id="tradition">
+          <TraditionSection />
+        </div>
+        <div id="modern">
+          <ModernSection />
+        </div>
+        <div id="guidance">
+          <GuidanceSection />
+        </div>
+        <div id="gallery">
+          <GallerySection />
+        </div>
+        <div id="conclusion">
+          <ConclusionSection />
+        </div>
       </main>
       <Footer onShowAppendix={() => setShowAppendix(true)} />
+      <Chatbot />
     </div>
   );
 };
