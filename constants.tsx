@@ -45,38 +45,39 @@ export const cardData: CardData[] = [
 
 export const galleryData: GalleryImage[] = [
     {
-        src: 'https://images.unsplash.com/photo-1643921104838-a35970a04a62?q=80&w=1280&auto=format&fit=crop',
+        src: 'https://banhtombaloc.vn/medias/2025/01/tet-nguyen-dan.png',
         alt: 'Gia đình sum vầy ngày Tết Nguyên Đán',
-        description: 'Tết Nguyên Đán, khoảnh khắc sum vầy thiêng liêng, nơi các thế hệ cùng nhau chia sẻ niềm vui và gìn giữ những phong tục truyền thống tốt đẹp.'
+        description: 'Tết Nguyên Đán là thời khắc thiêng liêng mà mọi thành viên trong gia đình quây quần bên nhau, cùng chia sẻ niềm vui, ôn lại kỷ niệm và gìn giữ những phong tục truyền thống tốt đẹp. Đây cũng là dịp để con cháu bày tỏ lòng biết ơn, ông bà trao truyền những giá trị tinh thần, tạo nên sợi dây gắn kết bền chặt giữa các thế hệ.'
     },
     {
-        src: 'https://images.unsplash.com/photo-1594212699903-ec8a3d58a8a6?q=80&w=1280&auto=format&fit=crop',
+        src: 'https://file3.qdnd.vn/data/images/0/2023/06/28/vuhuyen/com-gia-dinh.jpg?dpi=150&quality=100&w=870',
         alt: 'Bữa cơm gia đình ấm cúng',
-        description: 'Bữa cơm gia đình, không chỉ là nơi gắn kết tình thân mà còn là không gian ấm cúng để mọi người chia sẻ câu chuyện và thể hiện sự quan tâm.'
+        description: 'Bữa cơm gia đình không chỉ đơn thuần là nơi mọi người cùng thưởng thức món ăn, mà còn là không gian ấm cúng để các thành viên chia sẻ câu chuyện, trao nhau những lời động viên, chăm sóc nhau bằng tình cảm chân thành và sự quan tâm hàng ngày. Nó thể hiện sự gắn kết và tình thân sâu sắc trong mỗi gia đình.'
     },
     {
-        src: 'https://images.unsplash.com/photo-1599952261073-501160353155?q=80&w=1280&auto=format&fit=crop',
-        alt: 'Bà và cháu gái đang học bài',
-        description: 'Sự trao truyền giá trị giữa các thế hệ. Ông bà không chỉ chăm sóc mà còn dạy dỗ con cháu những bài học đầu đời quý giá.'
+        src: 'https://images2.thanhnien.vn/528068263637045248/2025/10/19/photo-1760886909003-1760886910103552078849.png',
+        alt: 'Bà và cháu gái đang học tiếng đức vui vẽ',
+        description: 'Sự trao truyền kiến thức và giá trị sống giữa các thế hệ luôn là điều quý giá. Những khoảnh khắc ông bà hướng dẫn, chăm sóc và dạy dỗ con cháu không chỉ giúp trẻ em học hỏi những bài học đầu đời mà còn hình thành nên những giá trị đạo đức, sự kiên nhẫn và lòng biết ơn, góp phần vun đắp tương lai cho thế hệ sau.'
     },
     {
-        src: 'https://images.unsplash.com/photo-1530041539828-114de669390e?q=80&w=1280&auto=format&fit=crop',
+        src: 'https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/2014_7_25_201407251418271180_tablet1.jpg',
         alt: 'Gia đình hiện đại sử dụng máy tính bảng',
-        description: 'Gia đình trong thời đại số. Công nghệ vừa là công cụ kết nối, giải trí, vừa đặt ra thách thức về việc cân bằng thời gian và tương tác trực tiếp.'
+        description: 'Trong thời đại công nghệ số, gia đình hiện đại thường sử dụng các thiết bị thông minh vừa để giải trí, vừa để kết nối thông tin. Tuy nhiên, công nghệ cũng đặt ra thách thức về việc cân bằng thời gian giữa màn hình và những tương tác trực tiếp, nhắc nhở các thành viên cần duy trì sự gần gũi và chia sẻ tình cảm hàng ngày để giữ gìn sự ấm áp gia đình.'
     },
     {
-        src: 'https://images.unsplash.com/photo-1597157639167-2ea211328055?q=80&w=1280&auto=format&fit=crop',
+        src: 'https://thanhnien.mediacdn.vn/Uploaded/vuphuong/2022_08_02/ac8b7ab22f4bed15b45a-9078.jpg',
         alt: 'Cô dâu và chú rể trong ngày cưới',
-        description: 'Đám cưới là sự kiện trọng đại, đánh dấu sự khởi đầu của một gia đình mới, là sự giao thoa giữa các giá trị văn hóa truyền thống và hiện đại.'
+        description: 'Đám cưới là một trong những sự kiện trọng đại nhất của đời người, đánh dấu sự khởi đầu của một gia đình mới và sự giao hòa giữa truyền thống và hiện đại. Đây là thời khắc mà tình yêu được chứng minh, các giá trị văn hóa được trân trọng, và mọi người cùng chúc phúc, mong cho gia đình trẻ luôn hạnh phúc, vững bền và tràn đầy niềm vui.'
     },
     {
-        src: 'https://images.unsplash.com/photo-1620192135332-936e3a47ed3a?q=80&w=1280&auto=format&fit=crop',
+        src: 'https://i.vnbusiness.vn/2019/09/25/du-lich-1801-1569410452_1200x0.jpg',
         alt: 'Gia đình nông dân đang làm việc trên đồng',
-        description: 'Cùng nhau lao động sản xuất. Hình ảnh phản ánh sự đồng lòng, chia sẻ gánh nặng kinh tế và xây dựng nền tảng vững chắc cho gia đình.'
+        description: 'Hình ảnh gia đình cùng lao động sản xuất trên đồng ruộng thể hiện sự đồng lòng, chia sẻ gánh nặng kinh tế và xây dựng nền tảng vững chắc cho cuộc sống. Những khoảnh khắc giản dị này không chỉ là công việc mà còn là dịp để mỗi thành viên học cách hỗ trợ nhau, rèn luyện sự kiên nhẫn và cảm nhận giá trị của tình thân trong đời sống hàng ngày.'
     },
     {
-        src: 'https://images.unsplash.com/photo-1604928141068-a08a26b6a4a8?q=80&w=1280&auto=format&fit=crop',
+        src: 'https://media.phunutoday.vn/files/upload_images/2015/07/04/chu-y-khi-tham-be-so-sinh1.jpg',
         alt: 'Cha mẹ trẻ đang bế em bé sơ sinh',
-        description: 'Chào đón thành viên mới. Khoảnh khắc đánh dấu sự chuyển giao và tiếp nối, mang lại niềm hạnh phúc và trách nhiệm lớn lao cho các cặp vợ chồng trẻ.'
+        description: 'Khoảnh khắc chào đón thành viên mới vào gia đình là niềm hạnh phúc vô bờ của các bậc cha mẹ. Nó đánh dấu sự chuyển giao và tiếp nối, mang lại trách nhiệm lớn lao và những trải nghiệm mới mẻ. Trong những ngày đầu đời của trẻ, tình yêu thương, sự chăm sóc tỉ mỉ và những bài học đầu đời mà cha mẹ truyền đạt chính là nền tảng quan trọng cho sự phát triển về cả thể chất lẫn tinh thần của con.'
     }
-];
+]
+;
