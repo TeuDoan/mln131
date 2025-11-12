@@ -1,0 +1,334 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Gia đình Việt Nam hiện nay được xem là đang trong giai đoạn nào?",
+      "options": [
+        "Gia đình truyền thống ổn định",
+        "Gia đình quá độ chuyển tiếp",
+        "Gia đình hiện đại hóa hoàn toàn",
+        "Gia đình công nghiệp hóa vững chắc"
+      ],
+      "answer": "Gia đình quá độ chuyển tiếp"
+    },
+    {
+      "id": 2,
+      "question": "Yếu tố nào KHÔNG được xem là giá trị truyền thống cốt lõi của gia đình Việt Nam?",
+      "options": [
+        "Lòng hiếu thảo",
+        "Tình làng nghĩa xóm",
+        "Chủ nghĩa cá nhân",
+        "Sự tôn trọng người lớn tuổi"
+      ],
+      "answer": "Chủ nghĩa cá nhân"
+    },
+    {
+      "id": 3,
+      "question": "Sự trỗi dậy của yếu tố nào đang định hình lại cấu trúc và cách giao tiếp trong gia đình?",
+      "options": [
+        "Chủ nghĩa cá nhân",
+        "Tôn ti trật tự",
+        "Quan niệm nông nghiệp",
+        "Chủ nghĩa tập thể"
+      ],
+      "answer": "Chủ nghĩa cá nhân"
+    },
+    {
+      "id": 4,
+      "question": "Khoảng cách thế hệ trong gia đình hiện đại chủ yếu bắt nguồn từ điều gì?",
+      "options": [
+        "Sự chênh lệch kinh tế",
+        "Khác biệt giá trị sống",
+        "Thời gian tiếp xúc hạn chế",
+        "Tác động của giáo dục xã hội"
+      ],
+      "answer": "Khác biệt giá trị sống"
+    },
+    {
+      "id": 5,
+      "question": "Mô hình gia đình nào đang dần thay thế cho 'tam đại đồng đường'?",
+      "options": [
+        "Gia đình đơn thân",
+        "Gia đình hạt nhân",
+        "Gia đình mở rộng",
+        "Gia đình đa văn hóa"
+      ],
+      "answer": "Gia đình hạt nhân"
+    },
+    {
+      "id": 6,
+      "question": "Nguyên nhân chính dẫn đến việc giảm số con trong mỗi gia đình Việt Nam là gì?",
+      "options": [
+        "Tác động của đô thị hóa",
+        "Chính sách kế hoạch hóa gia đình",
+        "Gia tăng thu nhập bình quân",
+        "Suy giảm niềm tin vào hôn nhân"
+      ],
+      "answer": "Chính sách kế hoạch hóa gia đình"
+    },
+    {
+      "id": 7,
+      "question": "Thông điệp dân số của giai đoạn 1980s–2010s nhấn mạnh điều gì?",
+      "options": [
+        "Sinh càng nhiều con càng tốt",
+        "Mỗi cặp chỉ nên có từ 1 đến 2 con",
+        "Ưu tiên sinh con trai để nối dõi",
+        "Giảm tỷ lệ sinh ở nông thôn"
+      ],
+      "answer": "Mỗi cặp chỉ nên có từ 1 đến 2 con"
+    },
+    {
+      "id": 8,
+      "question": "Thông điệp 'Mỗi cặp vợ chồng nên sinh đủ hai con' được đưa ra với mục đích gì?",
+      "options": [
+        "Giảm áp lực dân số trẻ",
+        "Đảm bảo cân bằng giới tính",
+        "Ứng phó với tình trạng già hóa dân số",
+        "Thúc đẩy chính sách nhập cư"
+      ],
+      "answer": "Ứng phó với tình trạng già hóa dân số"
+    },
+    {
+      "id": 9,
+      "question": "Trong gia đình hiện đại, chức năng kinh tế đã chuyển từ hình thức nào sang hình thức nào?",
+      "options": [
+        "Tự cấp tự túc sang đơn vị kinh tế hàng hóa",
+        "Phụ thuộc sang tự chủ hoàn toàn",
+        "Hợp tác sang cạnh tranh",
+        "Đơn vị sản xuất sang tiêu dùng"
+      ],
+      "answer": "Tự cấp tự túc sang đơn vị kinh tế hàng hóa"
+    },
+    {
+      "id": 10,
+      "question": "Tác động của giáo dục xã hội khiến chức năng nào của gia đình bị suy giảm?",
+      "options": [
+        "Giáo dục",
+        "Kinh tế",
+        "Tình cảm",
+        "Tái sản xuất"
+      ],
+      "answer": "Giáo dục"
+    },
+    {
+      "id": 11,
+      "question": "Chức năng nào của gia đình được đề cao hơn trong thời đại hiện nay?",
+      "options": [
+        "Tình cảm",
+        "Kinh tế",
+        "Giáo dục",
+        "Chính trị"
+      ],
+      "answer": "Tình cảm"
+    },
+    {
+      "id": 12,
+      "question": "Quan hệ nào trong gia đình được đánh giá là lỏng lẻo hơn so với trước đây?",
+      "options": [
+        "Quan hệ cha mẹ - con cái",
+        "Quan hệ vợ - chồng",
+        "Quan hệ anh chị em",
+        "Quan hệ họ hàng"
+      ],
+      "answer": "Quan hệ vợ - chồng"
+    },
+    {
+      "id": 13,
+      "question": "Nguyên nhân chính dẫn đến mâu thuẫn thế hệ trong gia đình Việt Nam hiện đại là gì?",
+      "options": [
+        "Khác biệt giá trị truyền thống và hiện đại",
+        "Thiếu giao tiếp giữa các thành viên",
+        "Áp lực tài chính",
+        "Tác động của phương tiện truyền thông"
+      ],
+      "answer": "Khác biệt giá trị truyền thống và hiện đại"
+    },
+    {
+      "id": 14,
+      "question": "Giá trị nào vẫn được xem là nền tảng đạo đức quan trọng nhất trong gia đình Việt Nam?",
+      "options": [
+        "Thủy chung",
+        "Tương trợ",
+        "Hiếu thảo",
+        "Trung thực"
+      ],
+      "answer": "Hiếu thảo"
+    },
+    {
+      "id": 15,
+      "question": "Hình thức thể hiện chữ hiếu trong thời đại công nghệ có thể bao gồm:",
+      "options": [
+        "Chăm sóc qua thiết bị công nghệ",
+        "Gửi quà tặng truyền thống",
+        "Tổ chức lễ giỗ linh đình",
+        "Sống chung nhiều thế hệ"
+      ],
+      "answer": "Chăm sóc qua thiết bị công nghệ"
+    },
+    {
+      "id": 16,
+      "question": "Giá trị 'sự thủy chung' trong hôn nhân hiện nay được xem là:",
+      "options": [
+        "Giá trị lỗi thời",
+        "Chuẩn mực vàng của hôn nhân bền vững",
+        "Chỉ tồn tại trong gia đình truyền thống",
+        "Không còn được coi trọng"
+      ],
+      "answer": "Chuẩn mực vàng của hôn nhân bền vững"
+    },
+    {
+      "id": 17,
+      "question": "Tinh thần 'lá lành đùm lá rách' thể hiện giá trị nào của gia đình Việt?",
+      "options": [
+        "Thủy chung",
+        "Tương trợ",
+        "Bình đẳng",
+        "Kỷ luật"
+      ],
+      "answer": "Tương trợ"
+    },
+    {
+      "id": 18,
+      "question": "Bình đẳng giới trong gia đình 4.0 thể hiện rõ nhất ở điểm nào?",
+      "options": [
+        "Phụ nữ chỉ chăm sóc gia đình",
+        "Phụ nữ tham gia kinh tế và có tiếng nói",
+        "Đàn ông nắm quyền tuyệt đối",
+        "Trẻ em không được tham gia ý kiến"
+      ],
+      "answer": "Phụ nữ tham gia kinh tế và có tiếng nói"
+    },
+    {
+      "id": 19,
+      "question": "Khía cạnh 'dân chủ trong gia đình' được thể hiện như thế nào?",
+      "options": [
+        "Người chồng có quyền quyết định mọi việc",
+        "Các quyết định được bàn bạc và thống nhất chung",
+        "Con cái phải tuân theo tuyệt đối",
+        "Mẹ làm chủ toàn bộ tài chính"
+      ],
+      "answer": "Các quyết định được bàn bạc và thống nhất chung"
+    },
+    {
+      "id": 20,
+      "question": "Sự chia sẻ trong gia đình hiện đại phản ánh điều gì?",
+      "options": [
+        "Bình đẳng và dân chủ",
+        "Thiếu kỷ luật",
+        "Mâu thuẫn vai trò giới",
+        "Phụ thuộc tài chính"
+      ],
+      "answer": "Bình đẳng và dân chủ"
+    },
+    {
+      "id": 21,
+      "question": "Phong trào 'Gia đình văn hóa' nhằm hướng tới điều gì?",
+      "options": [
+        "Phát huy giá trị đạo đức truyền thống và hiện đại",
+        "Tập trung phát triển kinh tế hộ gia đình",
+        "Giảm số lượng hộ hạt nhân",
+        "Bỏ qua yếu tố truyền thống"
+      ],
+      "answer": "Phát huy giá trị đạo đức truyền thống và hiện đại"
+    },
+    {
+      "id": 22,
+      "question": "Một trong các tiêu chí cốt lõi của 'Gia đình văn hóa' là:",
+      "options": [
+        "Độc lập cá nhân",
+        "Ấm no và hạnh phúc",
+        "Cạnh tranh kinh tế",
+        "Tích lũy của cải"
+      ],
+      "answer": "Ấm no và hạnh phúc"
+    },
+    {
+      "id": 23,
+      "question": "Tiêu chí 'Nghĩa vụ công dân' trong gia đình văn hóa gắn liền với:",
+      "options": [
+        "Phát triển kinh tế hộ",
+        "Trách nhiệm xã hội của mỗi thành viên",
+        "Quyền sở hữu tài sản",
+        "Giáo dục con cái"
+      ],
+      "answer": "Trách nhiệm xã hội của mỗi thành viên"
+    },
+    {
+      "id": 24,
+      "question": "Nội dung 'kế hoạch hóa gia đình' có mối liên hệ trực tiếp với:",
+      "options": [
+        "Chiến dịch dân số quốc gia",
+        "Phong trào tiết kiệm năng lượng",
+        "Giáo dục công dân",
+        "Hôn nhân tự do"
+      ],
+      "answer": "Chiến dịch dân số quốc gia"
+    },
+    {
+      "id": 25,
+      "question": "Giá trị 'Đoàn kết tương trợ' được khuyến khích nhằm:",
+      "options": [
+        "Tăng sức cạnh tranh giữa các hộ",
+        "Giữ gìn truyền thống tương thân tương ái",
+        "Phát triển sản xuất hàng hóa",
+        "Thúc đẩy phân hóa xã hội"
+      ],
+      "answer": "Giữ gìn truyền thống tương thân tương ái"
+    },
+    {
+      "id": 26,
+      "question": "Mục tiêu cuối cùng của việc xây dựng gia đình Việt Nam hiện đại là:",
+      "options": [
+        "Tạo dựng gia đình hạt nhân độc lập",
+        "Xây dựng tổ ấm lành mạnh, nuôi dưỡng nhân cách",
+        "Thúc đẩy công nghiệp hóa gia đình",
+        "Hòa nhập hoàn toàn với văn hóa phương Tây"
+      ],
+      "answer": "Xây dựng tổ ấm lành mạnh, nuôi dưỡng nhân cách"
+    },
+    {
+      "id": 27,
+      "question": "Theo văn bản, gia đình được ví như gì trong xã hội?",
+      "options": [
+        "Một đơn vị sản xuất",
+        "Một tế bào của xã hội",
+        "Một tổ chức văn hóa",
+        "Một trung tâm giáo dục"
+      ],
+      "answer": "Một tế bào của xã hội"
+    },
+    {
+      "id": 28,
+      "question": "Gia đình hiện đại hướng tới mô hình nào để thích ứng với thay đổi xã hội?",
+      "options": [
+        "Mô hình gia đình linh hoạt và bền vững",
+        "Gia đình truyền thống nhiều thế hệ",
+        "Gia đình định hướng tập thể",
+        "Gia đình phụ hệ cổ truyền"
+      ],
+      "answer": "Mô hình gia đình linh hoạt và bền vững"
+    },
+    {
+      "id": 29,
+      "question": "Sự đa dạng hóa trong cấu trúc gia đình hiện nay bao gồm sự xuất hiện của:",
+      "options": [
+        "Gia đình đa thế hệ",
+        "Gia đình đơn thân và hôn nhân đồng giới",
+        "Gia đình tập thể",
+        "Gia đình phụ hệ"
+      ],
+      "answer": "Gia đình đơn thân và hôn nhân đồng giới"
+    },
+    {
+      "id": 30,
+      "question": "Điều gì giúp gia đình Việt Nam 4.0 gắn kết hơn dù có khoảng cách địa lý?",
+      "options": [
+        "Công nghệ kết nối",
+        "Truyền thống dòng họ",
+        "Lễ nghi tôn giáo",
+        "Giao lưu văn hóa địa phương"
+      ],
+      "answer": "Công nghệ kết nối"
+    }
+  ]
+}
