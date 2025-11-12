@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
+interface HeaderProps {
+  onAction: () => void;
+  isQuiz?: boolean;
+}
+
 const navLinks = [
   { href: '#introduction', label: 'Toàn Cảnh' },
   { href: '#analysis', label: 'Phân Tích' },
@@ -10,7 +15,7 @@ const navLinks = [
   { href: '#conclusion', label: 'Kết Luận' },
 ];
 
-const Header: React.FC = () => {
+const Header: React.FC<HeaderProps> = ({ onAction, isQuiz = false }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -40,17 +45,29 @@ const Header: React.FC = () => {
             </div>
             
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center space-x-6">
-              {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="text-sm font-medium text-slate-300 hover:text-sky-400 transition-colors"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </nav>
+            {!isQuiz && (
+              <nav className="hidden md:flex items-center space-x-6">
+                {navLinks.map((link) => (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    className="text-sm font-medium text-slate-300 hover:text-sky-400 transition-colors"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </nav>
+            )}
+            <button
+              onClick={onAction}
+              className={`font-medium py-1 px-3 rounded transition-colors ${
+                isQuiz
+                  ? 'text-sm text-slate-300 hover:text-sky-400'
+                  : 'text-sm bg-sky-600 hover:bg-sky-700 text-white'
+              }`}
+            >
+              {isQuiz ? 'Quay lại' : 'Câu hỏi ôn tập'}
+            </button>
 
             {/* Mobile Menu Button */}
             <div className="md:hidden">
@@ -80,7 +97,7 @@ const Header: React.FC = () => {
         <div className="fixed inset-0 z-50 md:hidden" id="mobile-menu">
           <div className="absolute inset-0 bg-slate-900/90 backdrop-blur-sm" onClick={() => setIsMenuOpen(false)}></div>
           <div className="relative h-full flex flex-col items-center justify-center space-y-6">
-            {navLinks.map((link) => (
+            {!isQuiz && navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
@@ -90,6 +107,16 @@ const Header: React.FC = () => {
                 {link.label}
               </a>
             ))}
+            <button
+              onClick={() => { onAction(); setIsMenuOpen(false); }}
+              className={`font-bold transition-colors ${
+                isQuiz
+                  ? 'text-2xl text-slate-200 hover:text-sky-400'
+                  : 'text-2xl bg-sky-600 hover:bg-sky-700 text-white py-2 px-4 rounded'
+              }`}
+            >
+              {isQuiz ? 'Quay lại' : 'Câu hỏi ôn tập'}
+            </button>
           </div>
         </div>
       )}
