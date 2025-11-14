@@ -98,8 +98,8 @@ const MarketEconomyImpact = () => {
   };
 
   return (
-    <div ref={ref} className="w-full h-64 flex items-end justify-around pt-4" role="figure" aria-label="Biểu đồ so sánh tỷ lệ nữ giới tham gia lao động">
-      <div className="flex flex-col items-center">
+    <div ref={ref} className="w-full h-64 flex justify-around pt-4" role="figure" aria-label="Biểu đồ so sánh tỷ lệ nữ giới tham gia lao động">
+      <div className="flex flex-col items-center justify-end">
         <div
           className="w-16 bg-rose-500 rounded-t-md transition-all duration-1000 ease-out flex items-center justify-center"
           style={{ height: isVisible ? `${data.vietnam}%` : '0%' }}
@@ -108,7 +108,7 @@ const MarketEconomyImpact = () => {
         </div>
         <span className="mt-2 text-sm font-semibold text-slate-200">Việt Nam</span>
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center justify-end">
         <div
           className="w-16 bg-slate-600 rounded-t-md transition-all duration-1000 ease-out flex items-center justify-center"
           style={{ height: isVisible ? `${data.world}%` : '0%' }}
