@@ -79,7 +79,8 @@ const Chatbot: React.FC = () => {
     }
   };
 
-  const ChatBubble = ({ message }: { message: Message }) => {
+  // FIX: Use React.FC to correctly type the component and allow for the 'key' prop.
+  const ChatBubble: React.FC<{ message: Message }> = ({ message }) => {
     const isUser = message.role === 'user';
     return (
       <div className={`flex ${isUser ? 'justify-end' : 'justify-start'}`}>

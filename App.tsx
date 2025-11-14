@@ -6,6 +6,7 @@ import IntroductionSection from './components/IntroductionSection';
 import ContentSection from './components/ContentSection';
 import AnalysisSection from './components/AnalysisSection';
 import TraditionSection from './components/TraditionSection';
+import DataInsightsSection from './components/DataInsightsSection';
 import ModernSection from './components/ModernSection';
 import GuidanceSection from './components/GuidanceSection';
 import GallerySection from './components/GallerySection';
@@ -38,6 +39,9 @@ const App: React.FC = () => {
         <ContentSection />
         <div id="analysis">
           <AnalysisSection />
+        </div>
+        <div id="data-insights">
+          <DataInsightsSection />
         </div>
         <div id="tradition">
           <TraditionSection />

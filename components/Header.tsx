@@ -8,6 +8,7 @@ interface HeaderProps {
 const navLinks = [
   { href: '#introduction', label: 'Toàn Cảnh' },
   { href: '#analysis', label: 'Phân Tích' },
+  { href: '#data-insights', label: 'Dữ Liệu' },
   { href: '#tradition', label: 'Giá Trị Truyền Thống' },
   { href: '#modern', label: 'Yếu Tố Hiện Đại' },
   { href: '#guidance', label: 'Định Hướng' },
