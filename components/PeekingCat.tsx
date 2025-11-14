@@ -54,7 +54,7 @@ const PeekingCat: React.FC = () => {
   return (
     <>
       <div
-        className={`fixed bottom-0 left-1/2 -translate-x-1/2 w-40 h-28 transition-transform duration-1000 ease-in-out z-40 pointer-events-none ${
+        className={`fixed bottom-0 left-8 w-40 h-28 transition-transform duration-1000 ease-in-out z-40 pointer-events-none ${
           isPeeking ? 'translate-y-0' : 'translate-y-full'
         }`}
         aria-hidden="true"
