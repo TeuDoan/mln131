@@ -78,6 +78,26 @@ export const galleryData: GalleryImage[] = [
         src: 'https://media.phunutoday.vn/files/upload_images/2015/07/04/chu-y-khi-tham-be-so-sinh1.jpg',
         alt: 'Cha mẹ trẻ đang bế em bé sơ sinh',
         description: 'Khoảnh khắc chào đón thành viên mới vào gia đình là niềm hạnh phúc vô bờ của các bậc cha mẹ. Nó đánh dấu sự chuyển giao và tiếp nối, mang lại trách nhiệm lớn lao và những trải nghiệm mới mẻ. Trong những ngày đầu đời của trẻ, tình yêu thương, sự chăm sóc tỉ mỉ và những bài học đầu đời mà cha mẹ truyền đạt chính là nền tảng quan trọng cho sự phát triển về cả thể chất lẫn tinh thần của con.'
+    },
+    {
+        src: 'https://free.vector6.com/wp-content/uploads/2021/04/214183-Tranh-Co-Dong-Vector-Corel.jpg',
+        alt: 'Tranh cổ động về chủ đề gia đình',
+        description: 'Tranh cổ động là một hình thức truyền thông mạnh mẽ, thường được sử dụng để truyền tải các thông điệp của nhà nước về tầm quan trọng của gia đình. Những hình ảnh này nhấn mạnh việc xây dựng "gia đình văn hóa", ấm no, hạnh phúc, và coi đây là nền tảng cho sự phát triển bền vững của xã hội, thể hiện sự quan tâm của nhà nước đến giá trị cốt lõi.'
+    },
+    {
+        src: 'https://stphunusongchudong.suckhoegiadinh.com.vn/staticFile/cuocthi/cac-bai-tho-hay-ve-ke-hoach-hoa-gia-dinh-3_4733851.png',
+        alt: 'Tranh cổ động về chủ đề gia đình',
+        description: 'Tranh cổ động là một hình thức truyền thông mạnh mẽ, thường được sử dụng để truyền tải các thông điệp của nhà nước về tầm quan trọng của gia đình. Những hình ảnh này nhấn mạnh việc xây dựng "gia đình văn hóa", ấm no, hạnh phúc, và coi đây là nền tảng cho sự phát triển bền vững của xã hội, thể hiện sự quan tâm của nhà nước đến giá trị cốt lõi.'
+    },
+    {
+        src: 'https://vnanet.vn/Data/Articles/2019/08/01/4000264/vna_potal_thanh_pho_ho_chi_minh_tong_ket_va_trao_giai_cuoc_thi_sang_tac_tranh_co_dong_chu_de_%E2%80%9Cgia_dinh_no_am_tien_bo_hanh_phuc%E2%80%9D__161309044_stand.jpg',
+        alt: 'Tranh cổ động về chủ đề gia đình',
+        description: 'Tranh cổ động là một hình thức truyền thông mạnh mẽ, thường được sử dụng để truyền tải các thông điệp của nhà nước về tầm quan trọng của gia đình. Những hình ảnh này nhấn mạnh việc xây dựng "gia đình văn hóa", ấm no, hạnh phúc, và coi đây là nền tảng cho sự phát triển bền vững của xã hội, thể hiện sự quan tâm của nhà nước đến giá trị cốt lõi.'
+    },
+    {
+        src: 'https://cdn2.tuoitre.vn/thumb_w/480/471584752817336320/2023/6/18/base64-16870776951411956868612.png',
+        alt: 'Một gia đình tham gia ngày hội gia đình',
+        description: 'Các hoạt động cộng đồng do chính quyền và đoàn thể tổ chức, như "Ngày hội Gia đình" hay các giải chạy, tạo không gian để các gia đình cùng nhau tham gia. Những sự kiện này không chỉ tăng cường sức khỏe, sự gắn kết mà còn là nỗ lực của xã hội nhằm củng cố tình thân và tạo ra môi trường sống tích cực cho mọi thành viên.'
     }
 ]
 ;
