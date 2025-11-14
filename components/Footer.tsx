@@ -16,6 +16,7 @@ const Footer: React.FC<FooterProps> = ({ onShowAppendix, onShowQuiz, isQuiz = fa
             <h3 className="text-sm font-semibold text-slate-300 uppercase tracking-wider">Nguồn tham khảo</h3>
             <p className="mt-4 text-sm text-slate-400">
               Giáo trình Chủ nghĩa Xã hội Khoa học (Không chuyên), Chương 7.
+              Thông tin trên Internet. 
             </p>
           </div>
           
