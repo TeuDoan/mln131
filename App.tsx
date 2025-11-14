@@ -1,5 +1,5 @@
 // FIX: Create a valid App component to assemble the application layout.
-import React, { useState } from 'react';
+import React, from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import IntroductionSection from './components/IntroductionSection';
@@ -15,9 +15,11 @@ import Footer from './components/Footer';
 import AppendixPage from './components/AppendixPage';
 import Quiz from './components/Quiz';
 import Chatbot from './components/Chatbot';
+import PeekingCat from './components/PeekingCat';
+
 
 const App: React.FC = () => {
-  const [showAppendix, setShowAppendix] = useState(false);
+  const [showAppendix, setShowAppendix] = React.useState(false);
   const [showQuiz, setShowQuiz] = useState(false);
 
   if (showAppendix) {
@@ -61,6 +63,8 @@ const App: React.FC = () => {
       </main>
       <Footer onShowAppendix={() => setShowAppendix(true)} onShowQuiz={() => setShowQuiz(true)} isQuiz={false} />
       <Chatbot />
+      <PeekingCat />
+
     </div>
   );
 };
