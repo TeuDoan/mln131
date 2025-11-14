@@ -22,7 +22,7 @@ const PeekingCat: React.FC = () => {
           !isAnimating.current &&
           now - lastTriggerTime.current > cooldown &&
           window.scrollY > 300 && // Only show after some scrolling
-          Math.random() < 0.3 // 30% chance to appear on scroll
+          Math.random() < 0.1 // 30% chance to appear on scroll
         ) {
           isAnimating.current = true;
           lastTriggerTime.current = now;
